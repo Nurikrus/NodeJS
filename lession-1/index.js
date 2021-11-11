@@ -35,7 +35,7 @@ if (n == 1) console.log(colors.yellow("В заданном диапазаоне 
 
 
 function prostoe(n) {
-    if (n == 1)
+    if (n == 1 || n == 0)
         return false;
     for (let d = 2; d * d <= n; d++) {
         if (n % d === 0)
