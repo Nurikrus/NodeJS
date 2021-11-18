@@ -1,5 +1,5 @@
 /*
-data - значение даты/времени в любом формате (hh-dd-mm-yyyy; mm-hh-dd-mm-yyyy; ss-mm-hh-dd-mm-yyyy)
+data - значение даты/времени в любом формате (dd-mm-yyyy; hh-dd-mm-yyyy; mm-hh-dd-mm-yyyy; ss-mm-hh-dd-mm-yyyy)
 */
 
 let data = process.argv;
